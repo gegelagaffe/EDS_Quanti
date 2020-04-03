@@ -102,7 +102,7 @@ def Carac_Mineral(Mineral, Elt, Mol, rho, E0, Opt, Graph):
             print('Name of Mineral.....................',Output0[0])
             print('Name of Elt.........................',Output0[1])
             print('Atomic number.......................',Output0[2])
-            print('Atomic ratio in the mineral.........',Output0[3], '%')
+            print('Atomic ratio in the mineral.........',np.around(Output0[3],3), '%')
             print('Massic ratio in the mineral.........',np.around(Output0[4],3), '%')
             print('Energy of Xray line Ka..............',np.around(Output0[5],3), 'KeV')
             print('Mass absorption coefficient µ/rho...',np.around(Output0[6],3), ' cm^2/g')
